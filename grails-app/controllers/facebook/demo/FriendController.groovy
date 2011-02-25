@@ -12,7 +12,6 @@ class FriendController {
 
     def list = {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
-        [facebookGraphService:facebookGraphService,friendInstanceList: Friend.list(params), friendInstanceTotal: Friend.count()]
     }
 
     def create = {

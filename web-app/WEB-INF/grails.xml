@@ -1,0 +1,22 @@
+<grails>
+  <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>FacebookGraphFilters</resource>
+    <resource>com.daureos.facebook.FacebookGraphService</resource>
+    <resource>com.daureos.facebook.FacebookGraphTagLib</resource>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>facebook.demo.FriendController</resource>
+    <resource>facebook.demo.Friend</resource>
+    <resource>facebook.demo.FacebookTagLib</resource>
+  </resources>
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>FacebookGraphGrailsPlugin</plugin>
+    <plugin>GormJpaGrailsPlugin</plugin>
+  </plugins>
+</grails>

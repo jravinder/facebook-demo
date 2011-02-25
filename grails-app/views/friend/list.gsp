@@ -28,9 +28,7 @@
                   <g:fbFriendsInfo/>
 
             </div>
-            <div class="paginateButtons">
-                <g:paginate total="${friendInstanceTotal}" />
-            </div>
+            
         </div>
     </body>
 </html>

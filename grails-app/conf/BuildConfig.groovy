@@ -29,3 +29,4 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.5'
     }
 }
+google.appengine.sdk = "/Users/ravinder/Library/Caches/Homebrew/appengine-java-sdk-1.4.0"
