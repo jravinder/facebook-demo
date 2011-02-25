@@ -7,9 +7,9 @@ class FacebookTagLib {
       def fbBasicInfo = { attrs ->
         if (session.facebook) {
           def myInfo = JSON.parse (facebookGraphService.getFacebookProfile().toString() )
-           out << "Welcome <br/>" << myInfo.first_name +" "+myInfo.last_name 
-         out << "<img src='${facebookGraphService.getProfilePhotoSrc(myInfo.id);}'/>"
-          out << "</br/>"
+           out << "Welcome " << myInfo.first_name +" "+myInfo.last_name 
+         out << "<br /><img src='${facebookGraphService.getProfilePhotoSrc(myInfo.id);}'/>"
+          out << "<br/>"
 
 
         } else {
